@@ -4,3 +4,24 @@
 .box1{
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+#gallary .bali{
+    max-width: 676px;
+    height: 676px;
+    
+}
+#gallary img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+}
+#gallary .dubai{
+    max-width: 676px;
+    height: 328px;
+}
+#gallary .paris, #gallary .italy {
+    max-width: 328px;
+    height: 328px;
+}
