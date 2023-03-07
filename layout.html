@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/layout.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
 </head>
 
 <body>
 
-    <main>
-        <!-- <div class="container example1">
+  <main>
+    <!-- <div class="container example1">
             <div class="row">
                 <div class="col border">
                     example 1
@@ -100,7 +100,7 @@
         </div> -->
 
 
-        <!-- <div class="container">
+    <!-- <div class="container">
             <div class="row">
                 <div class="col border box">col</div>
                 <div class="col border box1">col</div>
@@ -113,7 +113,7 @@
             </div>
         </div> -->
 
-        <!-- <div class="container">
+    <!-- <div class="container">
             <div class="row">
               <div class="col-sm-8 box border">col-sm-8</div>
               <div class="col-sm-4 box1 border">col-sm-4</div>
@@ -125,108 +125,185 @@
             </div>
           </div> -->
 
-          <div class="container">
-            Stack the columns on mobile by making one full-width and the other half-width
-            <div class="row">
-              <div class="col-md-8 border box">.col-md-8</div>
-              <div class="col-6 col-md-4 border box1">.col-6 .col-md-4</div>
-            </div>
-          
-            Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
-            <div class="row">
-              <div class="col-6 col-md-4 border box">.col-6 .col-md-4</div>
-              <div class="col-6 col-md-4 border box1">.col-6 .col-md-4</div>
-              <div class="col-6 col-md-4 border box">.col-6 .col-md-4</div>
-            </div>
-          
-            Columns are always 50% wide, on mobile and desktop
-            <div class="row">
-              <div class="col-6 border box">.col-6</div>
-              <div class="col-6 border box1">.col-6</div>
-            </div>
-          </div>
+    <div class="container">
+      Stack the columns on mobile by making one full-width and the other half-width
+      <div class="row">
+        <div class="col-md-8 border box">.col-md-8</div>
+        <div class="col-6 col-md-4 border box1">.col-6 .col-md-4</div>
+      </div>
 
-          <br><br>
+      Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
+      <div class="row">
+        <div class="col-6 col-md-4 border box">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4 border box1">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4 border box">.col-6 .col-md-4</div>
+      </div>
 
-          <div class="container">
-            <p>row-cols-2</p>
-            <div class="row row-cols-2">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-            </div>
-          </div>
-          <br><br>
+      Columns are always 50% wide, on mobile and desktop
+      <div class="row">
+        <div class="col-6 border box">.col-6</div>
+        <div class="col-6 border box1">.col-6</div>
+      </div>
+    </div>
 
-          <div class="container">
-            <p>row-cols-auto</p>
-            <div class="row row-cols-auto">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-            </div>
-          </div>
+    <br><br>
 
-          <br><br>
+    <div class="container">
+      <p>row-cols-2</p>
+      <div class="row row-cols-2">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+      </div>
+    </div>
+    <br><br>
 
-          <div class="container">
-            <p>row-cols-4</p>
-            <div class="row row-cols-4">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-            </div>
-          </div>
+    <div class="container">
+      <p>row-cols-auto</p>
+      <div class="row row-cols-auto">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+      </div>
+    </div>
 
-          <br><br>
+    <br><br>
 
-          <div class="container">
-            <p>row-cols-4 + col-6</p>
-            <div class="row row-cols-4">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col-6 border box">Column</div>
-              <div class="col border box1">Column</div>
-            </div>
-          </div>
+    <div class="container">
+      <p>row-cols-4</p>
+      <div class="row row-cols-4">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+      </div>
+    </div>
 
-          <br><br>
+    <br><br>
 
-          <div class="container">
-            <p>row-cols-1 row-cols-sm-2 row-col-mds-4</p>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-            </div>
-          </div>
+    <div class="container">
+      <p>row-cols-4 + col-6</p>
+      <div class="row row-cols-4">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col-6 border box">Column</div>
+        <div class="col border box1">Column</div>
+      </div>
+    </div>
 
-          <br><br>
+    <br><br>
 
-          <div class="container">
-            <div class="row row-cols-2 row-cols-lg-3">
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col border box">Column</div>
-              <div class="col border box1">Column</div>
-              <div class="col-4 col-lg-2 border box">Column</div>
-              <div class="col-4 col-lg-2 border box1">Column</div>
-              <div class="col-4 col-lg-2 border box">Column</div>
-              <div class="col-4 col-lg-2 border box1">Column</div>
-              <div class="col-4 col-lg-2 border box">Column</div>
-              <div class="col-4 col-lg-2 border box1">Column</div>
-            </div>
-          </div>
-    </main>
+    <div class="container">
+      <p>row-cols-1 row-cols-sm-2 row-col-mds-4</p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+      <div class="row row-cols-2 row-cols-lg-3">
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col border box">Column</div>
+        <div class="col border box1">Column</div>
+        <div class="col-4 col-lg-2 border box">Column</div>
+        <div class="col-4 col-lg-2 border box1">Column</div>
+        <div class="col-4 col-lg-2 border box">Column</div>
+        <div class="col-4 col-lg-2 border box1">Column</div>
+        <div class="col-4 col-lg-2 border box">Column</div>
+        <div class="col-4 col-lg-2 border box1">Column</div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+      <table class="table table-dark table-striped">
+        <tr>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+        </tr>
+        <tr>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+        </tr>
+        <tr>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+        </tr>
+        <tr>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+        </tr>
+        <tr>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark ">primary</td>
+          <td class="table-dark">primary</td>
+          <td class="table-dark">primary</td>
+        </tr>
+      </table>
+    </div>
 
 
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <form>
+      <div class="container">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </main>
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
